@@ -7,5 +7,7 @@
 			"path": "../../../site shop1"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "game__site"
+	}
 }
