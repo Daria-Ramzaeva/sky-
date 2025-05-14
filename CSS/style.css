@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "montserrat", sans-serif;
+scroll-behavior: smooth;
 }
 
 .center {
@@ -63,6 +64,10 @@
   cursor: pointer;
 }
 
+.game_links {
+  text-decoration: none;
+}
+
 .for__games {
   background-color: rgb(32, 32, 39);
   box-sizing: border-box;
@@ -72,13 +77,6 @@
   background-position: center;
   background-size: cover;
 }
-
-
-.game_links{
-  text-decoration: none; 
- }
- 
-
 .for__games-title {
   color: rgb(255, 255, 255);
   font-size: 64px;
