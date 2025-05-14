@@ -72,6 +72,13 @@
   background-position: center;
   background-size: cover;
 }
+
+
+.game_links{
+  text-decoration: none; 
+ }
+ 
+
 .for__games-title {
   color: rgb(255, 255, 255);
   font-size: 64px;

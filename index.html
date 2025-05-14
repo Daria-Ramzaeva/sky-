@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="games_holder/game_1.html">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
     <title>Game__site</title>
 </head>
@@ -17,12 +18,16 @@
             <h1 class="top__title">Добро пожаловать на мой сайт мини-игр</h1>
             <p class="top__subtitle">Тебе предстоит пройти несколько увлекательных игр. <br> Если готов, нажимай
                 «Поехали!» и приступай.</p>
-            <button class="top__btn">Поехали!</button>
+
+            <button class="top__btn"><a href="#scroll_main">Поехали!</a></button>
+
+
+
         </div>
     </div>
     <main>
         <div class="for__games center">
-            <h2 class="for__games-title">Об играх</h2>
+            <h2 class="for__games-title" id="scroll_main">Об играх</h2>
             <p class="for__games-info">В моей коллекции представлено 6 игр на разные темы<br>Игры несложные — в них
                 может поиграть каждый.
                 <br>Все игры доступны для пользования.
@@ -30,37 +35,42 @@
 
             <div class="for__games-wrapper">
 
+
                 <div class="for__games-box">
                     <div class="for__games-card">
-                        <img class="for__games-card__img" src="../game__site/IMG/for__games/card__1.jpeg" alt="game__1">
-                        <div class="for__games-card__content">
-                            <h4 class="for__games-card__content-title">Игра №1</h4>
-                            <p class="for__games-card__content-game-name">Угадай число</p>
-                        </div>
+                        <a class="game_links" href="games_holder/game_1.html">
+                            <img class="for__games-card__img" src="IMG/for__games/card__1.jpeg" alt="game__1">
+                            <div class="for__games-card__content">
+                                <h4 class="for__games-card__content-title">Игра №1</h4>
+                                <p class="for__games-card__content-game-name">Угадай число</p>
+                            </div>
                     </div>
                     <div class="for__games-card for__games-card_big">
-                        <img class="for__games-card__img" src="../game__site/IMG/for__games/card__4.png" alt="game__1">
+                        <img class="for__games-card__img" src="IMG/for__games/card__4.png" alt="game__4">
                         <div class="for__games-card__content">
                             <h4 class="for__games-card__content-title">Игра №4</h4>
                             <p class="for__games-card__content-game-name">Камень, ножницы,<br>бумага</p>
+                            </a>
                         </div>
                     </div>
-
                 </div>
+
 
                 <div class="for__games-box">
                     <div class="for__games-card">
-                        <img class="for__games-card__img" src="../game__site/IMG/for__games/card__2.png" alt="game__1">
-                        <div class="for__games-card__content">
-                            <h4 class="for__games-card__content-title">Игра №2</h4>
-                            <p class="for__games-card__content-game-name">Простая арифметика</p>
-                        </div>
+                        <a class="game_links" href="games_holder/game_1.html">
+                            <img class="for__games-card__img" src="IMG/for__games/card__2.png" alt="game__2">
+                            <div class="for__games-card__content">
+                                <h4 class="for__games-card__content-title">Игра №2</h4>
+                                <p class="for__games-card__content-game-name">Простая арифметика</p>
+                            </div>
                     </div>
                     <div class="for__games-card ">
-                        <img class="for__games-card__img" src="../game__site/IMG/for__games/card__5.png" alt="game__1">
+                        <img class="for__games-card__img" src="IMG/for__games/card__5.png" alt="game__4">
                         <div class="for__games-card__content">
                             <h4 class="for__games-card__content-title">Игра №5</h4>
                             <p class="for__games-card__content-game-name">Простая викторина</p>
+                            </a>
                         </div>
                     </div>
 
@@ -68,17 +78,19 @@
                 </div>
                 <div class="for__games-box">
                     <div class="for__games-card">
-                        <img class="for__games-card__img" src="../game__site/IMG/for__games/card__3.png" alt="game__1">
-                        <div class="for__games-card__content">
-                            <h4 class="for__games-card__content-title">Игра №3</h4>
-                            <p class="for__games-card__content-game-name">Переверни текст</p>
-                        </div>
+                        <a class="game_links" href="games_holder/game_1.html">
+                            <img class="for__games-card__img" src="IMG/for__games/card__3.png" alt="game__3">
+                            <div class="for__games-card__content">
+                                <h4 class="for__games-card__content-title">Игра №3</h4>
+                                <p class="for__games-card__content-game-name">Переверни текст</p>
+                            </div>
                     </div>
                     <div class="for__games-card">
-                        <img class="for__games-card__img" src="../game__site/IMG/for__games/card__6.png" alt="game__1">
+                        <img class="for__games-card__img" src="IMG/for__games/card__6.png" alt="game__6">
                         <div class="for__games-card__content">
                             <h4 class="for__games-card__content-title">Игра №6</h4>
                             <p class="for__games-card__content-game-name">Генератор случайных <br>цветов</p>
+                            </a>
                         </div>
                     </div>
 
@@ -89,13 +101,14 @@
             <div class="game_list">
                 <h4 class="game_list-heading">Мини-игры</h4>
 
-                <div class="game_list-game1">
-                    <h5 class="game_list-game1-heading">Угадай число</h5>
-                    <p class="game_list-game1-text">Попробуй угадать случайное число от 1 до 100.</p>
-                    <button class="game_list-game1-btn">Играть!</button>
-                    <img class="game_list-game1-picture" src="IMG/for__games/card__1.jpeg" alt="game__1">
-                </div>
-
+                <a a class="game_links" href="games_holder/game_1.html">
+                    <div class="game_list-game1">
+                        <h5 class="game_list-game1-heading">Угадай число</h5>
+                        <p class="game_list-game1-text">Попробуй угадать случайное число от 1 до 100.</p>
+                        <button class="game_list-game1-btn">Играть!</button>
+                        <img class="game_list-game1-picture" src="IMG/for__games/card__1.jpeg" alt="game__1">
+                    </div>
+                </a>
 
                 <div class="game_list-game1">
                     <img class="game_list-game1-picture" src="IMG/for__games/card__1.jpeg" alt="game__1">

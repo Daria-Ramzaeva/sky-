@@ -116,3 +116,6 @@ function getNumber() {
 
     console.log(circle1.methodGetArea());
     */
+
+
+
